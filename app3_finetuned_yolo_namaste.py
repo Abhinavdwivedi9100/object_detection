@@ -10,7 +10,7 @@ from ultralytics import YOLO
 # model = YOLO(r'C:\Users\HP\OneDrive - softsensor.ai\pvr\weights\model_120624.pt')
 # model = YOLO(r'C:\Users\HP\OneDrive - softsensor.ai\pvr\weights\model_140624.pt')
 # model = YOLO(r'C:\Users\HP\OneDrive - softsensor.ai\pvr\weights\greet_yawn_helmet_smoke_mask.pt')
-model = YOLO(r'C:\Users\HP\OneDrive - softsensor.ai\Documents\object_detection\new_model_18072024.pt')
+model = YOLO(r'new_model_18072024.pt')
 
 class YOLOVideoTransformer(VideoTransformerBase):
     def transform(self, frame):
